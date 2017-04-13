@@ -1,5 +1,16 @@
 {
   "name": "Node_mailer",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "scripts": {
+    "transpile-es2015": "babel src -d lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemailer": "4.0.1^",
+    "require-dir":  "^0.3.0"
+
+  }
+
 }
